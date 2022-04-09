@@ -6,8 +6,8 @@
  *	the same line
  * Return: 0
  */
- int main(void)
- {
+int main(void)
+{
 	int ua;
 
 	for (ua = 0; ua < 26; ++ua)
