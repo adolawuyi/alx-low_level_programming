@@ -6,16 +6,16 @@
   *
   * Return: 0
   */
- int main(void)
- {
-         char ua;
+int main(void)
+{
+	char ua;
 
-	 for (ua = 'a'; ua <= 'z'; ++ua)
-	 {
+	for (ua = 'a'; ua <= 'z'; ++ua)
+	{
 		if (ua != 'e' && ua != 'q')
 		putchar(ua);
-	 }
-	 putchar('\n');
+	}
+	putchar('\n');
 
-	 return (0);
- }
+	return (0);
+}
