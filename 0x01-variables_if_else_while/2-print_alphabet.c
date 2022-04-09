@@ -8,6 +8,7 @@
 int main(void)
 {
 	int la;
+
 	for (la = 0; la < 26; ++la)
 	putchar('a' + la);
 
