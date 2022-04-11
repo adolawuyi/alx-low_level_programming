@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- /**
+/**
  * main - Print all possible combinations of two different digits,
  *in ascending order, sperated by a comma followed by a space
  *
@@ -22,7 +22,7 @@ int main(void)
 
 	putchar(',');
 	putchar(' ');
-	}	
+	}
 	}
 	putchar('\n');
 
