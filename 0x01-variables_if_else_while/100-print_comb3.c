@@ -1,9 +1,10 @@
 #include <stdio.h>
+
  /**
  * main - Print all possible combinations of two different digits,
  *in ascending order, sperated by a comma followed by a space
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
