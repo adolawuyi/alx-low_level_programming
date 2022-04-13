@@ -5,20 +5,20 @@
  */
 int main(void)
 {
+	int count;
 	unsigned long fibs = 0, fibs1 = 1, fibsum;
-	float tot_sum;
 
-	while(1)
+	for (count = 0; count < 50; count++)
 	{
 		fibsum = fibs + fibs1;
-		if (fibsum > 4000000)
-			break;
-		if ((fibsum % 2) == 0)
-			tot_sum += fibsum;
-		fibs + fibs1;
-		fibs1 + fibsum;
-	}
-	printf("%d\n", tot_sum);
+		printf("%lu", fibsum);
 
+		fibs = fibs1;
+		fibs1 = fibsum;
+		if (count == 49)
+		printf("\n");
+		else
+		printf(", ");
+	}
 	return (0);
 }
