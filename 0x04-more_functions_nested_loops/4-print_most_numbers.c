@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_,ost_numbers - print except 2 and 4.
+ * print_most_numbers - print except 2 and 4.
  *
  * Return: Always 0 (Success)
  */
@@ -12,7 +12,7 @@ void print_most_numbers(void)
 
 	i = 0;
 
-	for (i >= 0; i < 10; i++)
+	for (i > 0; i < 10; i++)
 	{
 		if (i == 2 || i == 4)
 			i++;
