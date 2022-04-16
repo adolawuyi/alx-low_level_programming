@@ -8,19 +8,19 @@
 
 void more_numbers(void)
 {
-int a, b, c;
+int i, j, a;
 
-for (c = 0; c < 10; c++)
+for (a = 0; a < 10; a++)
 {
-for (a = 0; a <= 1; a++)
+for (i = 0; i <= 1; i++)
 {
-for (b = 0; b <= 9; b++)
+for (j = 0; j <= 9; j++)
 {
-if (!(a == 1 && b >= 5))
+if (!(i == 1 && j >= 5))
 {
 if (i)
-_putchar(a + '0');
-_putchar(b + '0');
+_putchar(i + '0');
+_putchar(j + '0');
 }
 }
 }
