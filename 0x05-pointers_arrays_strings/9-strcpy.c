@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * _strcpy - copies src to dest
+ * _strcpy - copies src to dest.
  * @dest: char
  * @src: char
  * return: char
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char * src)
 {
 	int i;
 
