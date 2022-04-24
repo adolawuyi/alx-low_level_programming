@@ -3,7 +3,8 @@
  * *_strcmp - function that compares two strings
  * @s1: string to be compared
  * @s2: string to be compared
- * Return: negative if s1 < s2; 0 if matching and int if positive int if s1 > s2
+ * Return: negative if s1 < s2; 0 if matching
+ *and int if positive int if s1 > s2
  */
 
 int _strcmp(char *s1, char *s2)
@@ -15,5 +16,6 @@ int _strcmp(char *s1, char *s2)
 		if (s1[x] != s2[x])
 			return (s1[x] - s2[x]);
 	}
+	
 	return (0);
 }
