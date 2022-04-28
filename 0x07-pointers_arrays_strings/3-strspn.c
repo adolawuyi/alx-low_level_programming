@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
  * _strspn - search a string for a set of bytes
  * @s: source string
@@ -22,7 +22,8 @@ unsigned int _strspn(char *s, char *accept)
 			}
 
 			b++
-				}
+		}
+
 		a++;
 	}
 
